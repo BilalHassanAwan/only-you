@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To Sajjal, With Love</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="neon-text">Hey Sajjal...</h1>
+    <p class="sub-text">There’s something glowing I’ve been meaning to tell you.</p>
+
+    <div class="greetings">
+      <button onclick="showMessage(0)">Click Me 1</button>
+      <button onclick="showMessage(1)">Click Me 2</button>
+      <button onclick="showMessage(2)">Click Me 3</button>
+    </div>
+
+    <div id="message-box" class="message-box"></div>
+
+    <div class="love-letter-section">
+      <button onclick="showLoveLetter()" class="read-heart-btn">Read My Heart</button>
+      <div id="love-letter" class="love-letter hidden">
+        <p>
+          I never thought I’d fall this way… but here I am, trying to code a piece of my heart into something real. <br><br>
+          Every time I saw you, Sajjal, something just clicked — like the perfect line of code. I’ve admired you silently, and this page, this music, every glow here... it’s all just trying to say one thing:
+          <br><br><strong>I love you.</strong><br><br>
+          This isn’t just a webpage — it’s my way of reaching out with courage, hoping you feel the same magic I’ve felt for you.
+        </p>
+      </div>
+    </div>
+
+    <div class="photo-gallery">
+      <h2 class="neon-text">Moments of You</h2>
+      <div class="photos">
+        <img src="photos/sajjal1.jpg" alt="Sajjal 1" />
+        <img src="photos/sajjal2.jpg" alt="Sajjal 2" />
+        <img src="photos/sajjal3.jpg" alt="Sajjal 3" />
+      </div>
+    </div>
+  </div>
+
+  <audio id="bg-music" autoplay controls class="music-player"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Orbitron:wght@500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  font-family: 'Orbitron', sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+  flex-direction: column;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.neon-text {
+  font-family: 'Great Vibes', cursive;
+  font-size: 4em;
+  color: #fff;
+  text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 40px #ff00ff;
+  margin-bottom: 10px;
+}
+
+.sub-text {
+  font-size: 1.2em;
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+.greetings button {
+  background: transparent;
+  border: 2px solid #00f7ff;
+  padding: 15px 25px;
+  margin: 10px;
+  font-size: 1em;
+  color: #00f7ff;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px #00f7ff, 0 0 20px #00f7ff;
+}
+
+.greetings button:hover {
+  background-color: #00f7ff;
+  color: #000;
+  box-shadow: 0 0 20px #00f7ff, 0 0 40px #00f7ff;
+}
+
+.message-box {
+  margin-top: 20px;
+  font-size: 1.1em;
+  color: #ffb6ff;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px dashed #ff00ff;
+  border-radius: 15px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
+
+.love-letter-section {
+  margin-top: 40px;
+}
+
+.read-heart-btn {
+  background-color: transparent;
+  color: #ff00ff;
+  border: 2px solid #ff00ff;
+  padding: 15px 35px;
+  font-size: 1.3em;
+  cursor: pointer;
+  border-radius: 50px;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+  box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+}
+
+.read-heart-btn:hover {
+  background-color: #ff00ff;
+  color: #fff;
+  box-shadow: 0 0 30px #ff00ff, 0 0 60px #ff00ff;
+}
+
+.love-letter {
+  margin-top: 30px;
+  padding: 25px;
+  border-radius: 15px;
+  background-color: rgba(0,0,0,0.4);
+  border: 2px solid #f0f;
+  box-shadow: 0 0 15px #f0f, 0 0 25px #f0f;
+  max-width: 700px;
+  text-align: left;
+  font-size: 1.1em;
+  line-height: 1.6em;
+}
+
+.hidden {
+  display: none;
+}
+
+.music-player {
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  background-color: #111;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #00f7ff;
+}
+
+.photo-gallery {
+  margin-top: 50px;
+}
+
+.photos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.photos img {
+  width: 200px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #f0f, 0 0 40px #f0f;
+  transition: transform 0.3s ease;
+}
+
+.photos img:hover {
+  transform: scale(1.1);
+}
